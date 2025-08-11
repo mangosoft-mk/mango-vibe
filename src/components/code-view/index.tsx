@@ -16,6 +16,7 @@ export const CodeView = ({code, lang}: Props) => {
         async function highlight() {
             Prism.highlightAll();
         }
+
         highlight();
     }, [code, lang]);
     return (
