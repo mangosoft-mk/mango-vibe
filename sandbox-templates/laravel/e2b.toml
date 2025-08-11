@@ -1,0 +1,16 @@
+# This is a config for E2B sandbox template.
+# You can use template ID (44k8n0h3lungbzbbovkf) or template name (mango-laravel) to create a sandbox:
+
+# Python SDK
+# from e2b import Sandbox, AsyncSandbox
+# sandbox = Sandbox("mango-laravel") # Sync sandbox
+# sandbox = await AsyncSandbox.create("mango-laravel") # Async sandbox
+
+# JS SDK
+# import { Sandbox } from 'e2b'
+# const sandbox = await Sandbox.create('mango-laravel')
+
+team_id = "046fa784-b1af-425c-b7ef-f859486d4f64"
+dockerfile = "e2b.Dockerfile"
+template_name = "mango-laravel"
+template_id = "44k8n0h3lungbzbbovkf"

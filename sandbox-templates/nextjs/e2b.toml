@@ -1,0 +1,17 @@
+# This is a config for E2B sandbox template.
+# You can use template ID (wfly4zvn0hr95nkp4p8t) or template name (mangoble) to create a sandbox:
+
+# Python SDK
+# from e2b import Sandbox, AsyncSandbox
+# sandbox = Sandbox("mangoble") # Sync sandbox
+# sandbox = await AsyncSandbox.create("mangoble") # Async sandbox
+
+# JS SDK
+# import { Sandbox } from 'e2b'
+# const sandbox = await Sandbox.create('mangoble')
+
+team_id = "046fa784-b1af-425c-b7ef-f859486d4f64"
+start_cmd = "/compile_page.sh"
+dockerfile = "e2b.Dockerfile"
+template_name = "mangoble"
+template_id = "wfly4zvn0hr95nkp4p8t"
