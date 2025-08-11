@@ -14,9 +14,6 @@ interface Props {
 export const CodeView = ({code, lang}: Props) => {
     useEffect(() => {
         async function highlight() {
-            if (lang === 'php') {
-                await import('prismjs/components/prism-php');
-            }
             Prism.highlightAll();
         }
         highlight();

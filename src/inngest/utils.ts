@@ -19,7 +19,6 @@ export function lastAssistantTextMessageContent(result: AgentResult){
     return message?.content
     ? typeof message.content === 'string'
         ? message.content
-            : message.content.map((content: { text: any; })=> content.text).join("")
+            : message.content.map((content: { text: string })=> content.text).join("")
     : undefined;
 }
-
